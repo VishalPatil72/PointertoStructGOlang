@@ -1,0 +1,17 @@
+package main
+  
+import "fmt"
+type Student struct {
+    name  string
+    studId int
+}
+
+func main() {
+    stud := Student{"ABC", 19078}
+    ptstud := &stud
+  
+    fmt.Println(ptstud)
+    fmt.Println(pts.name)
+    fmt.Println((*pts).name)
+  
+}
